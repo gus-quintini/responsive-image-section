@@ -136,10 +136,31 @@
     margin-top: 2em;
   }
 
-  
+  .text {
+    padding-right: 1.5rem;
+    padding-left: 1.2rem;
+    margin-top: 2.6em;
+  }
+
+  .img-flex {
+    padding-right: 1.2em;
+  }
 
 }
 
 @media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+    line-height: 1.6;
+  }
+
+  section {
+    max-width: 50em;
+  }
+
+  .text {
+    margin-top: 3.5em;
+  }
 
 }
