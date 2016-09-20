@@ -68,13 +68,75 @@
 
 @media only screen and (min-width: 25em) {
 
+  .button {
+    padding-bottom: 1.5em;
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
 
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  body {
+    display: block;
+    margin: auto;
+  }
+
+  footer {
+    display: inline-block;
+    max-width: 49%;
+    margin: 4.5em auto;
+  }
+
+  .text {
+    padding-right: 1em;
+    max-width: 49%;
+    margin: 0.75em auto;
+    vertical-align: top;
+    display: inline-block;
+  }
+
+  .image {
+    display: block;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-heigth: 1.5;
+  }
+
+  p {
+    margin-bottom: 1em;
+  }
+
+  h1 {
+    margin-bottom: 1.1em;
+  }
+
+  a {
+    padding-top: 0.7rem;
+    padding: 0.75rem;
+    padding-bottom: 0.7rem;
+  }
+
+  section {
+    max-width: 60em;
+    margin: auto;
+  }
+
+  footer {
+    margin-top: 2em;
+  }
+
+  
 
 }
 
