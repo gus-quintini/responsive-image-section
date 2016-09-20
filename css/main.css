@@ -1,10 +1,16 @@
+  @-moz-viewport {width: device-width; scale:1;}
+  @-ms-viewport {width: device-width; scale:1;}
+  @-o-viewport {width: device-width; scale:1;}
+  @-webkit-viewport {width: device-width; scale:1;}
+  @viewport {width: device-width; scale:1;}
+
   html {
   	box-sizing: border-box;
     -moz-text-size-adjust: 100%;
     -ms-text-size-adjust: 100;
     -webkit-text-size-adjust: 100%;
     text-size-adjust: 100%;
-    font-family: sans-serif;
+    padding: 0;
     background-color: #e2e2e2;
   }
 
@@ -15,16 +21,50 @@
   .img-flex {
     width: 100%;
     display: block;
+    vertical-align: middle;
   }
 
-  .btn {
+  body {
+    font-family: sans-serif;
+    margin: 0;
+  }
+
+  h1 {
+    line-height: 1.4;
+    font-size: 1.5em;
+  }
+
+  h2 {
+    font-size: 1em;
+    margin-bottom: 0;
+  }
+
+  .button {
   display: block;
-  font-size: 1.3rem;
-  padding: 0.5em;
-  border-radius: 4px;
-  background-color: #555;
-  color: #fff;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
+
+  a {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-width: 1px;
+    border-radius: 4px;
+    border-color: #555;
+    text-align: center;
+    text-decoration: none;
+    background-color: #555;
+    color: #000;
+  }
+
+  a:hover {
+    background-color: #000;
+  }
+
+  p {
+    text-align: left;
+    margin-bottom: 0;
+  }
 
 @media only screen and (min-width: 25em) {
 
